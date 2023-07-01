@@ -1,0 +1,124 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500&display=swap');
+
+
+@font-face {
+    font-family: 'Hanken Grotesk', sans-serif;
+    src: url('../assets/fonts/HankenGrotesk-VariableFont_wght.ttf')format('truetype');
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Hanken Grotesk', sans-serif;
+}
+
+html, body {
+    width: 100vw;
+    height: 100vh;
+    
+}
+
+main {
+    width: 245px;
+    height: 475px;
+    margin: auto;
+}
+
+main div#results {
+    text-align: center;
+    background-image: linear-gradient(to bottom, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    border-radius: 0px 0px 20px 20px;
+    color: white;
+    display: block;
+    
+}
+
+
+main div#seteseis h1 {
+    display: block;
+    margin: auto;
+    height: 80px;
+    width: 80px;
+    padding-top: 20px;
+    background-image: linear-gradient(to bottom, hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+    border-radius: 50%;
+    transform: translateY(15px);
+
+}
+
+
+main div#results p {
+    padding-top: 10px;
+    font-size: 0.6em;
+    color: rgb(186, 185, 185);
+}
+
+main div#cem p {
+    transform: translateY(-20px);
+}
+
+
+main div#results h3 {
+    padding-top: 20px;
+}
+
+main div#results #msg {
+    margin-left: 40px;
+    margin-right: 40px;
+    padding-bottom: 20px;
+}
+
+main div#summary {
+    padding: 20px;
+    display: block;
+}
+
+main div#summary h3 {
+    padding-bottom: 30px;
+}
+
+main div#summary ul {
+    list-style: none;
+    columns: 2;
+}
+
+main div#summary ul li {
+    margin-bottom: 30px;
+    padding-left: 20px;
+
+}
+
+main div#summary ul li#red {
+    color: red;
+}
+
+main div#summary ul li#yellow {
+    color: rgb(219, 219, 10);
+}
+
+main div#summary ul li#green {
+    color: green;
+}
+
+main div#summary ul li#blue {
+    color: blue;
+}
+
+main div#summary input {
+    width: 200px;
+    margin: auto;
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    background-color: hsl(241, 81%, 54%);
+    color: white;
+    cursor: pointer;
+}
+
+:hover main div#summary input {
+    cursor: pointer;
+    background-color:hsl(224, 30%, 27%) ;
+}
